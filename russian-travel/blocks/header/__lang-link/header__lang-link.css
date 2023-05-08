@@ -1,0 +1,10 @@
+.header__lang-link {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    justify-self: end;
+    justify-content: row;
+    align-self: last baseline;
+    margin: 18px 0px 6px 0;
+    list-style: none;
+}

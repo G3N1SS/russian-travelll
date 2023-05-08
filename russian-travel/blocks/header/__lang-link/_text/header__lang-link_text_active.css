@@ -1,0 +1,28 @@
+.header__lang-link_text_active {
+    text-decoration: underline;
+    font-family: 'Inter', sans-serif;
+    font-style: regular;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: underline;
+    line-height: 28px;
+    font-size: 24px;
+    margin: 0;
+    display: inline;
+}
+
+.header__lang-link_text_active:last-child {
+    display: inline-block;
+
+}
+
+.header__lang-link_text_active:nth-child(0) {
+    display: inline-block;
+}
+
+@media screen and (max-width:425px) {
+    .header__lang-link_text_active {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
