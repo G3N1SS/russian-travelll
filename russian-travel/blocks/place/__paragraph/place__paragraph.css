@@ -23,6 +23,12 @@
     .place__paragraph {
         font-size: 16px;
         line-height: 26px;
-        max-width: calc(100% - 2 * 16px);
+        max-width: calc(100% - 2 * 12px);
+    }
+}
+
+@media screen and (max-width:426px) {
+    .place__paragraph{
+        margin: 0 auto 25px auto;
     }
 }

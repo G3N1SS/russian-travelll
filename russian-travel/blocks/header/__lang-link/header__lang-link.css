@@ -5,6 +5,7 @@
     justify-self: end;
     justify-content: row;
     align-self: last baseline;
-    margin: 18px 0px 6px 0;
+    margin: 0;
     list-style: none;
+    padding: 0;
 }

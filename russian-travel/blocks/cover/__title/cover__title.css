@@ -5,17 +5,34 @@
     line-height: 76px;
     color: #ffffff;
     text-align: center;
-    align-self: center;
     max-width: 560px;
-    z-index: 2;
-    margin: 0 0 32px 0;
+    margin: 0 auto 32px auto;
+    z-index: 1;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:1024px) {
+    .cover__title{
+        margin-top: 195px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cover__title{
+        margin-top: 115px;
+    }
+}
+
+@media screen and (max-width:668px) {
     .cover__title {
         max-width: calc(100% - 2 * 16px);
         font-size: 32px;
         line-height: 35px;
-        margin: 0 auto 16px auto;
+        margin: 115px auto 16px auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__title{
+        margin-top: 33px;
     }
 }

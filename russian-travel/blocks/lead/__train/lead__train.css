@@ -3,3 +3,15 @@
     max-height: 615px;
     grid-area: image;
 }
+
+@media screen and (max-width:1024px){
+    .lead__train{
+        max-height: 580px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .lead__train{
+        max-height: 480px;
+    }
+}

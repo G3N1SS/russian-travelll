@@ -26,12 +26,14 @@
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:426px) {
     .place {
         grid-template-areas:
             "title"
             "website"
             "image"
             "paragraph";
+        margin-bottom: 50px;
+        gap: 32px 0;
     }
 }
